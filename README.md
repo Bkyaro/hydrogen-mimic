@@ -1,13 +1,33 @@
+# Hydrogen on Remix, Demo Store
+
+[Hydrogen 2.0 Gameplan Doc](https://docs.google.com/document/d/1iEerwYgs30rVDJi5JbfxCJf2K-boAwGOODmDFCNQDmY/edit#)
+
+[Github Project for Demo Store](https://github.com/orgs/Shopify/projects/5093/views/2)
+
+## Milestones:
+
+1. [ ] Rebuild the [Hydrogen Demo](https://hydrogen.shop/) store on a barebones, Vanilla version of Remix.
+2. [ ] Break down code into the roadmap for "glue layer" and Hydrogen UI
+3. [ ] Create list of what mental models and code patterns have changed, and what functionality is no longer possible that we should de-risk with existing merchants (e.g. server routing).
+
+## Principles:
+
+-   Start with the unknowns, and areas where we think patterns may be different. Copy/pasting markup is easy and can be done at the end.
+-   Do not over engineer; our demo store is used as a quick reference for Developers. DRYing up code in a way that makes the trail hard to follow for unfamiliar developers is an anti-pattern.
+-   Keep as close to existing Demo Store as possible, without breaking Remix best practices
+
+---
+
 # Welcome to Remix!
 
-- [Remix Docs](https://remix.run/docs)
+-   [Remix Docs](https://remix.run/docs)
 
 ## Development
 
 You will be running two processes during development:
 
-- The Miniflare server (miniflare is a local environment for Cloudflare Workers)
-- The Remix development server
+-   The Miniflare server (miniflare is a local environment for Cloudflare Workers)
+-   The Remix development server
 
 Both are started with one command:
 
